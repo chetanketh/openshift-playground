@@ -6,7 +6,7 @@ var category = _.find(window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES,
 console.log(category)
 
 
-category.items.splice(2,0,{ // Insert at the third spot.
+category.subCategories.splice(2,0,{ // Insert at the third spot.
   // Required. Must be unique.
   id: "go",
   // Required.
@@ -26,7 +26,7 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
   id: "featured",
   // Required
   label: "Featured",
-  items: [
+  subCategories: [
     {
       // Required. Must be unique.
       id: "go",
