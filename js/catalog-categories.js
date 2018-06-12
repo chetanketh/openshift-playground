@@ -1,6 +1,6 @@
 // Find the Languages category.
 var category = _.find(window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES,
-                      { id: 'languages' });
+                      { id: 'category-languages' });
 // Add Go as a new subcategory under Languages.
 category.subCategories.splice(2,0,{ // Insert at the third spot.
   // Required. Must be unique.
@@ -19,7 +19,7 @@ category.subCategories.splice(2,0,{ // Insert at the third spot.
 // Add a Featured category as the first category tab.
 window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
   // Required. Must be unique.
-  id: "featured",
+  id: "category-featured",
   // Required
   label: "Featured",
   subCategories: [
