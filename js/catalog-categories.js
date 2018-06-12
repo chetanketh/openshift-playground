@@ -8,43 +8,41 @@ console.log(category)
 
 category.subCategories.splice(2,0,{ // Insert at the third spot.
   // Required. Must be unique.
-  id: "go",
+  id: "java",
   // Required.
-  label: "Go",
+  label: "SEBShift-java",
   // Optional. If specified, defines a unique icon for this item.
   icon: "icon-go-gopher",
   // Required. Items matching any tag will appear in this subcategory.
   tags: [
-    "go",
-    "golang"
+    "java"
   ]
 });
 
-// Add a Featured category as the first category tab.
+// Add a SEBShift category as the first category tab.
 window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
   // Required. Must be unique.
-  id: "featured",
+  id: "SEBShift",
   // Required
-  label: "Featured",
+  label: "SEBShift",
   subCategories: [
     {
       // Required. Must be unique.
-      id: "go",
+      id: "java",
       // Required.
-      label: "Go",
+      label: "SEBShift-java",
       // Optional. If specified, defines a unique icon for this item.
       icon: "icon-go-gopher",
       // Required. Items matching any tag will appear in this subcategory.
       tags: [
-        "go",
-        "golang"
+        "java"
       ]
     },
     {
       // Required. Must be unique.
       id: "jenkins",
       // Required.
-      label: "Jenkins",
+      label: "JAAS (Jenkins as a service )",
       // Optional. If specified, defines a unique icon for this item.
       icon: "icon-jenkins",
       // Required. Items matching any tag will appear in this subcategory.
