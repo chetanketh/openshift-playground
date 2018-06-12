@@ -2,6 +2,10 @@
 var category = _.find(window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES,
                       { id: 'category-languages' });
 // Add Go as a new subcategory under Languages.
+
+console.log(category)
+
+
 category.subCategories.splice(2,0,{ // Insert at the third spot.
   // Required. Must be unique.
   id: "go",
