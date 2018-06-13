@@ -12,7 +12,7 @@ category.subCategories.splice(2,0,{ // Insert at the third spot.
   // Required.
   label: "SEBShift-java",
   // Optional. If specified, defines a unique icon for this item.
-  icon: "icon-go-gopher",
+  icon: "icon-openjdk",
   // Required. Items matching any tag will appear in this subcategory.
   tags: [
     "java"
@@ -32,7 +32,7 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
       // Required.
       label: "SEBShift-java",
       // Optional. If specified, defines a unique icon for this item.
-      icon: "icon-go-gopher",
+      icon: "icon-openjdk",
       // Required. Items matching any tag will appear in this subcategory.
       tags: [
         "java"
